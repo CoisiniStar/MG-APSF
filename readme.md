@@ -22,7 +22,7 @@ Obtain relevant clues according to the description in the paper.
 ## How to Run
 ### Training and Evaluation 
 ```bash
-$ python train.py --config configs/anchorkg_config.json
+$ python train.py 
 ```
 
 
