@@ -1,7 +1,7 @@
 ## Importing libraries
 import ctypes
 
-# lib_path = "/home/lhz/cuda12.1/lib64/libcusparse.so.12"
+# lib_path = "/home/AnonymousUser/cuda12.1/lib64/libcusparse.so.12"
 # ctypes.CDLL(lib_path)
 
 import dgl
