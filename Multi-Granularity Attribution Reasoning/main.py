@@ -5,7 +5,7 @@ import math
 import ctypes
 import random
 
-lib_path = "/home/lvhongzhen/cuda12.1/lib64/libcusparse.so.12"
+lib_path = "/home/lhz/cuda12.1/lib64/libcusparse.so.12"
 ctypes.CDLL(lib_path)
 from torch.utils.data import Sampler
 from Model.MGFramework import Detection_Module
