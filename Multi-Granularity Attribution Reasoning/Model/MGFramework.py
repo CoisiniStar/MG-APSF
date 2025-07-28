@@ -5,7 +5,7 @@ from Model.base_model import BaseModel
 from Model.GATLayer_multimodal import HeteroGraphClassifier
 import dgl
 import numpy as np
-from Model.AKAN import AKAN
+from Model.anchorkg import AKAN
 from Model.Graph_learning import NGR
 from Model.Event_GModel import HGC_Model
 import argparse
