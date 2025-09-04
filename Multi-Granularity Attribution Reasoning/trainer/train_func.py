@@ -143,7 +143,7 @@ def train_func(config, epoch, model, dataloader, device, optimizer, scheduler, l
 
                 optimizer.step()
                 scheduler.step()
-
+                optimizer.zero_grad()  # 清空主模型梯度
                 # 第二步：更新AKAN参数
             anchor_loss.backward()
 
