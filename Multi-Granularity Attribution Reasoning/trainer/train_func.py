@@ -143,7 +143,7 @@ def train_func(config, epoch, model, dataloader, device, optimizer, scheduler, l
 
                 optimizer.step()
                 scheduler.step()
-                optimizer.zero_grad()  # 清空主模型梯度
+                # optimizer.zero_grad()  # 清空主模型梯度
                 # 第二步：更新AKAN参数
             anchor_loss.backward()
 
@@ -153,7 +153,8 @@ def train_func(config, epoch, model, dataloader, device, optimizer, scheduler, l
 
             # ===== 关键修改：手动清空AKAN梯度 =====
             model.AKAN.zero_grad()
-
+            # ===== 清空主模型梯度 =====
+            optimizer.zero_grad()
             critic_all_loss = critic_all_loss + critic_losses.item()
             actor_all_loss = actor_all_loss + actor_losses.item()
             anchor_all_loss = anchor_all_loss + anchor_loss.item()
