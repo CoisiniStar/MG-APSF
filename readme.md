@@ -74,9 +74,9 @@ The framework supports running both single-scenario simulations and comprehensiv
 Run a Comparative Experiment (Recommended):
 This will run the simulation under three conditions: No Intervention, Official Intervention, and Official + Psychological Intervention, and automatically generate comparative plots.
 
-     ```bash
-          python main.py --experiment_type comparative --no_days 15 --contact_rate 3
-     ```
+```bash
+     python main.py --experiment_type comparative --no_days 15 --contact_rate 3
+```
 
 Run a Single Custom Experiment:
      ```bash
