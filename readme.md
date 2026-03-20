@@ -1,4 +1,4 @@
-This repository is for the paper "Multi-Granularity Attribution and Psychological intervention Framework for fake news detection".
+This repository is for the paper "From Prediction to Intervention: A Rumor-Debunking Simulation Framework Based on Psychological Intervention and Multi-Granularity".
 # Project Structure
      ├── Multi-Granularity Attribution Reasoning
      │   ├── config
