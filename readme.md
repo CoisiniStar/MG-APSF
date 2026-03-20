@@ -1,6 +1,6 @@
 # MG-APSF: From Prediction to Intervention in Fake News Dissemination 🚀
 
-> Official implementation for the rumor-debunking simulation framework based on Psychological Intervention and Multi-Granularity Attribution Reasoning.
+> Official implementation of the paper "From Prediction to Intervention: A Rumor-Debunking Simulation Framework Based on Psychological Intervention and Multi-Granularity Attribution Reasoning".
 
 ## 📖 Overview
 
