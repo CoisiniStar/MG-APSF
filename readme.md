@@ -49,7 +49,7 @@ Each `Citizen` inherits from `mesa.Agent` and simulates a realistic human partic
 └── requirements.txt        # Package dependencies
 ```
 
-🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 1. Clone the repository:
 git clone [https://github.com/yourusername/MG-APSF.git](https://github.com/yourusername/MG-APSF.git)
 cd MG-APSF
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 Open 'main.py' and set your OpenAI API key and Base URL:
      openai.api_key = "sk-YOUR_API_KEY"
      openai.api_base = "https://YOUR_BASE_URL"
-🚀 Usage
+# 🚀 Usage
 The framework supports running both single-scenario simulations and comprehensive comparative experiments.
 
 Run a Comparative Experiment (Recommended):
@@ -69,7 +69,7 @@ python main.py --experiment_type comparative --no_days 15 --contact_rate 3
 
 Run a Single Custom Experiment:
 python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
-📊 Outputs
+# 📊 Outputs
 After execution, check the output/ folder for:
 
 population_dynamics_*.png: SIR model state transitions over time.
@@ -78,5 +78,5 @@ intervention_comparison.png: Side-by-side comparison of different intervention s
 
 *-data.csv & *-final_metrics.csv: Raw metric data for further analysis.
 
-📝 Ethical Considerations
+# 📝 Ethical Considerations
 This framework relies on large language models and is intended solely for academic research purposes to understand and mitigate the spread of misinformation. It strictly prohibits the use of these techniques for the creation or dissemination of malicious content.
