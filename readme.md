@@ -75,21 +75,21 @@ Run a Comparative Experiment (Recommended):
 This will run the simulation under three conditions: No Intervention, Official Intervention, and Official + Psychological Intervention, and automatically generate comparative plots.
 
 ```bash
-     python main.py --experiment_type comparative --no_days 15 --contact_rate 3
+python main.py --experiment_type comparative --no_days 15 --contact_rate 3
 ```
 
 Run a Single Custom Experiment:
-     ```bash
-          python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
-     ```
+```bash
+python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
+```
 # 📊 Outputs
 After execution, check the output/ folder for:
 
-\item population_dynamics_*.png: SIR model state transitions over time.
+1️⃣ population_dynamics_*.png: SIR model state transitions over time.
 
-\item intervention_comparison.png: Side-by-side comparison of different intervention strategies.
+2️⃣ intervention_comparison.png: Side-by-side comparison of different intervention strategies.
 
-\item *-data.csv & *-final_metrics.csv: Raw metric data for further analysis.
+3️⃣ *-data.csv & *-final_metrics.csv: Raw metric data for further analysis.
 
 # 📝 Ethical Considerations
 This framework relies on large language models and is intended solely for academic research purposes to understand and mitigate the spread of misinformation. It strictly prohibits the use of these techniques for the creation or dissemination of malicious content.
