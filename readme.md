@@ -53,21 +53,22 @@ Each `Citizen` inherits from `mesa.Agent` and simulates a realistic human partic
 1. Clone the repository:
 
 ```bash
-     git clone [https://github.com/yourusername/MG-APSF.git](https://github.com/yourusername/MG-APSF.git)
-     cd MG-APSF
+git clone [https://github.com/yourusername/MG-APSF.git](https://github.com/yourusername/MG-APSF.git)
+cd MG-APSF
 ```
 
 2. Install dependencies:
 ```bash
-     pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Configure API Keys:
 Open 'main.py' and set your OpenAI API key and Base URL:
-     ```bash
-     openai.api_key = "sk-YOUR_API_KEY"
-     openai.api_base = "https://YOUR_BASE_URL"
-     ```
+```bash
+openai.api_key = "sk-YOUR_API_KEY"
+openai.api_base = "https://YOUR_BASE_URL"
+```
+
 # 🚀 Usage
 The framework supports running both single-scenario simulations and comprehensive comparative experiments.
 
@@ -82,6 +83,7 @@ Run a Single Custom Experiment:
 ```bash
 python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
 ```
+
 # 📊 Outputs
 After execution, check the output/ folder for:
 
