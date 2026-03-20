@@ -51,32 +51,45 @@ Each `Citizen` inherits from `mesa.Agent` and simulates a realistic human partic
 
 # 🛠️ Installation & Setup
 1. Clone the repository:
-git clone [https://github.com/yourusername/MG-APSF.git](https://github.com/yourusername/MG-APSF.git)
-cd MG-APSF
+
+```bash
+     git clone [https://github.com/yourusername/MG-APSF.git](https://github.com/yourusername/MG-APSF.git)
+     cd MG-APSF
+```
+
 2. Install dependencies:
-pip install -r requirements.txt
+```bash
+     pip install -r requirements.txt
+```
+
 3. Configure API Keys:
 Open 'main.py' and set your OpenAI API key and Base URL:
+     ```bash
      openai.api_key = "sk-YOUR_API_KEY"
      openai.api_base = "https://YOUR_BASE_URL"
+     ```
 # 🚀 Usage
 The framework supports running both single-scenario simulations and comprehensive comparative experiments.
 
 Run a Comparative Experiment (Recommended):
 This will run the simulation under three conditions: No Intervention, Official Intervention, and Official + Psychological Intervention, and automatically generate comparative plots.
 
-python main.py --experiment_type comparative --no_days 15 --contact_rate 3
+     ```bash
+          python main.py --experiment_type comparative --no_days 15 --contact_rate 3
+     ```
 
 Run a Single Custom Experiment:
-python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
+     ```bash
+          python main.py --experiment_type single --name "My_Custom_Run" --no_days 15 --no_init_healthy 28 --no_init_infect 2
+     ```
 # 📊 Outputs
 After execution, check the output/ folder for:
 
-population_dynamics_*.png: SIR model state transitions over time.
+\item population_dynamics_*.png: SIR model state transitions over time.
 
-intervention_comparison.png: Side-by-side comparison of different intervention strategies.
+\item intervention_comparison.png: Side-by-side comparison of different intervention strategies.
 
-*-data.csv & *-final_metrics.csv: Raw metric data for further analysis.
+\item *-data.csv & *-final_metrics.csv: Raw metric data for further analysis.
 
 # 📝 Ethical Considerations
 This framework relies on large language models and is intended solely for academic research purposes to understand and mitigate the spread of misinformation. It strictly prohibits the use of these techniques for the creation or dissemination of malicious content.
