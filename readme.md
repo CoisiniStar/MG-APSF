@@ -47,6 +47,7 @@ Each `Citizen` inherits from `mesa.Agent` and simulates a realistic human partic
 ├── utils.py                # Helper functions for metrics, personas, and API calling
 ├── world.py                # Simulation Environment definition (Mesa Model)
 └── requirements.txt        # Package dependencies
+'''
 
 🛠️ Installation & Setup
 1. Clone the repository:
