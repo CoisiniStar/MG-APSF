@@ -1,6 +1,11 @@
 # MG-APSF: From Prediction to Intervention in Fake News Dissemination 🚀
 
 > Official implementation of the paper "From Prediction to Intervention: A Rumor-Debunking Simulation Framework Based on Psychological Intervention and Multi-Granularity Attribution Reasoning".
+> Official implementation of the paper "Explainable multi-granularity attribution reasoning framework for fake news detection".
+
+## 📰 News
+
+* **[2026-03]** 🎉 Our paper **"Explainable Multi-Granularity Attribution Reasoning Framework for Fake News Detection"** has been officially accepted by the **npj Artificial Intelligence** journal! 🏆
 
 ## 📖 Overview
 
@@ -95,3 +100,15 @@ After execution, check the output/ folder for:
 
 # 📝 Ethical Considerations
 This framework relies on large language models and is intended solely for academic research purposes to understand and mitigate the spread of misinformation. It strictly prohibits the use of these techniques for the creation or dissemination of malicious content.
+
+## 📝 Citation
+
+If you find this work or code useful, please cite our paper:
+
+```bibtex
+@article{ji2026explainable,
+  title={Explainable Multi-Granularity Attribution Reasoning Framework for Fake News Detection},
+  author={Wei Ji, Hongzhen Lv, Hanbin Zhao and Roger Zimmermann},
+  journal={npj Artificial Intelligence},
+  year={2026}
+}
