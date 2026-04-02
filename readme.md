@@ -106,8 +106,12 @@ If you find this work or code useful, please cite our paper:
 
 ```bibtex
 @article{ji2026explainable,
-  title={Explainable Multi-Granularity Attribution Reasoning Framework for Fake News Detection},
-  author={Wei Ji, Hongzhen Lv, Hanbin Zhao and Roger Zimmermann},
+  title={Explainable multi-granularity attribution reasoning framework for fake news detection},
+  author={Ji, Wei and Lv, Hongzhen and Zhao, Hanbin and Zimmermann, Roger},
   journal={npj Artificial Intelligence},
-  year={2026}
+  volume={2},
+  number={1},
+  pages={38},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
